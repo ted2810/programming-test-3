@@ -1,0 +1,15 @@
+{
+  "name": "static-site-generator",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node lib/index.js"
+  },
+  "author": "Ted Stoychev",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
+}
